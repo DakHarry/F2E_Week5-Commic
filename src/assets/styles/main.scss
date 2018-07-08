@@ -1,0 +1,15 @@
+@import 'normalize';
+@import 'transition';
+@import 'utilities';
+
+html {
+   color: $light;
+   background-color: adjust-color($light, $lightness: 10%);
+   font-family: 'Roboto';
+}
+
+#app {
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+}
